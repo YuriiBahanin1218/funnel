@@ -1,0 +1,40 @@
+.people-cell {
+    width: 127px;
+    height: 105px;
+    background-color: #D0FAEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 17px, 18px, 17px, 18px;
+    margin: auto;
+    gap: 8px;
+}
+
+.ant-table {
+    font-size: 12px !important;
+}
+
+.ant-table-thead {
+    font-size: 10px !important;
+    color: #9299AB !important;
+    font-weight: 700;
+    height: 28px;
+}
+
+.ant-table-cell {
+    text-align: center;
+}
+
+.company-table {
+    margin-top: 20px;
+}
+
+.name-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}

@@ -1,0 +1,41 @@
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-switch {
+    display: flex;
+    border-radius: 20px;
+    border: 1px #343E59 solid;
+    overflow: hidden;
+}
+
+.category-switch-button {
+    background-color: white;
+    width: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343E59;
+    gap: 10px;
+    border-radius: 0px;
+    border: 0px;
+    font-weight: 500;
+    height: 35px;
+}
+
+.category-switch-active {
+    background-color: #343E59;
+    color: white;
+}
+
+.sub-header-button {
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    gap: 6px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: white;
+    border: 0px;
+}

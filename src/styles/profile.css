@@ -1,0 +1,126 @@
+label {
+    color: #9299AB !important;
+}
+
+.profile-page {
+    display: flex;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.profile-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #343E59;
+    margin-bottom: 10px;
+}
+
+.profile-section {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.profile-div1 {
+    width: 100%;
+    border-width: 1px 1px 0px 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding: 30px;
+}
+
+.profile-div2 {
+    width: 100%;
+    border-width: 0px 1px 1px 1px;
+    background-color: white;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-div-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.password-rule-div {
+    width: 50%;
+    height: 145px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.password-rule-text1 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.password-rule-text2 {
+    color: #9299AB;
+}
+
+.password-rule-text3 {
+    color: #4EC246;
+}
+
+.password-rule-text4 {
+    color: #EB5757;
+}
+
+.new-password-div {
+    width: 50%;
+}
+
+.form-input {
+    height: 45px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+.form-button {
+    width: 100%;
+    background-color: #4EC246;
+    font-size: 14px !important;
+    height: 45px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.card-item {
+    background-color: #F2F2FA;
+    padding: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-item-left {
+    display: flex;
+    gap: 15px;
+    align-self: center;
+}
+
+.warning-text {
+    color: #EB5757;
+}
+
+.invoice-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #343E59;
+    font-size: 14px;
+    margin-top: 20px;
+}

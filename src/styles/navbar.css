@@ -1,0 +1,26 @@
+.navbar {
+    height: 58px;
+    background-color: white;
+    border-radius: 80px;
+    margin: 20px;
+    padding: 10px 10px 10px 20px;
+    border: 0px, 0px, 1px, 0px;
+}
+
+.navbar-start {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-end {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link {
+    color: #343E59;
+    font-size: 14px;
+    font-weight: 600;
+}

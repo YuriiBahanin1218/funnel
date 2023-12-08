@@ -1,0 +1,150 @@
+.mylisting-page {
+    margin: 20px;
+    display: flex;
+}
+
+.item-div {
+    width: 60%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #343E59;
+    margin-bottom: 10px;
+}
+
+.mylisting-item {
+    width: 100%;
+    height: 132px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.open-button {
+    width: 88px;
+    height: 37px;
+    padding: 9px 15px 9px 15px;
+    border-radius: 45px;
+    border: 0px 0px 1px 0px;
+    gap: 10px;
+    background-color: #343E59;
+    display: flex;
+    color: white;
+    font-size: 14px !important;
+    align-items: center;
+}
+
+.item-title {
+    font-size: 20px;
+    margin: auto;
+}
+
+.top-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.top-left-item {
+    display: flex;
+    gap: 15px;
+}
+
+.top-right-item {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bottom-left-item {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-right-item {
+    display: flex;
+    color: #9299AB;
+}
+
+.unlock-div {
+    width: 100%;
+    height: 104px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #9299AB;
+}
+
+.plan-div {
+    width: 40%;
+    height: 338px;
+    background-image: url("../../public/assets/bg.png");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 25px;
+    margin-left: 20px;
+    margin-top: 63px;
+}
+
+.plan-div-title {
+    width: 201px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.plan-div-item {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+.plan-choose-div {
+    width: 100%;
+    height: 45px;
+    padding: 14px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.plan-choose-title {
+    color: #343E59;
+    font-weight: 600;
+    font-size: 14px;
+    align-self: center;
+}
+
+.plan-choose-price {
+    color: #4EC246;
+    font-size: 10px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.unlock-link {
+    text-decoration: underline;
+    color: #343E59;
+}
